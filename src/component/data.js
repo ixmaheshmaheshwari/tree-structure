@@ -1,4 +1,4 @@
- [{
+ const data =[{
     "name": "root",
     "type": "folder",
     "icon": "folder",
@@ -104,3 +104,7 @@
       }
     ]
   }]
+  const idAccessor = (node) => node.name;
+
+export { data, idAccessor };
+

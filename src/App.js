@@ -1,10 +1,9 @@
 import './App.css';
-import TreeViewComponent from './component/treeview';
-
+import TreeView from './component/treeview.jsx';
+import data from './component/data';
 function App() {
   return (
-   <TreeViewComponent/>
-  );
+<TreeView/>  );
 }
 
 export default App;
