@@ -1,7 +1,6 @@
 import React ,{useState} from 'react';
 import { Tree } from 'react-arborist';
 import { data, idAccessor } from './data';
-import './tree.css'
 import Node from './node.jsx';
 const TreeView = () => {
     

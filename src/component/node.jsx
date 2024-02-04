@@ -14,7 +14,7 @@ const Node = ({ node, style, tree }) => {
     <span className="arrow"></span>
     <span className="file-folder-icon">
       <AiFillFile color="#6bc7f6" />
-    </span>
+    </span>                                 
   </>
 ) : (
   <>
